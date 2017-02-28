@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:微软雅黑;
+}
+body{
+    background: #ccc;
+}
+#header{
+    width: 100%;
+    height:220px;
+    margin:0px auto;
+    overflow:hidden;
+    background: -webkit-gradient(linear,left top,left bottom, from(#9acfea), to(#ccc))
+}
+#header span{
+    display: block;
+    text-align: center;
+    color:  #cc50e8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:8px;
+}
+#header figure div{
+    display:block;
+    margin:10px auto;
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    border:3px solid #fff;
+    overflow:hidden;
+    -webkit-box-shadow:0 0 3px #ccc;
+    box-shadow:0 0 3px #ccc;
+}
+#header img{
+    width:100%;
+    min-height:100%;
+    text-align:center;
+}
+#container  figure div{
+    display:block;
+    margin:10px auto;
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    border:1px solid #fff;
+    overflow:hidden;
+    -webkit-box-shadow:0 0 3px #ccc;
+    box-shadow:0 0 3px #ccc;
+}
+#container img{
+    width:100%;
+    min-height:100%;
+    text-align:center;
+}
+#nav{
+    width: 100%;
+    height:50px;
+}
+#nav ul{
+    width:1200px;
+    margin:0 auto;
+}
+#nav ul li{
+    display: inline-block;
+    color: #136ec2;;
+    margin:14px;
+    padding:0px 49px;
+    padding-bottom:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+#nav li a {
+    text-decoration: none;
+    color:#136ec2;
+}
+#nav .on a{
+    color:#f60;
+}
+#nav li a:hover{
+    color: #f60;
+}
+.on{
+    text-decoration: none;
+    border-bottom:3px solid #f60;
+    -webkit-transition: border-bottom 0.1s ease-in 0s;
+    -moz-transition: border-bottom 0.1s ease-in 0s;
+    -ms-transition: border-bottom 0.1s ease-in 0s;
+    -o-transition: border-bottom 0.1s ease-in 0s;
+    transition: border-bottom 0.1s ease-in 0s;
+}
+#nav ul li:hover{
+    border-bottom:3px solid #f60;
+    -webkit-transition: border-bottom 0.1s ease-in 0s;
+    -moz-transition: border-bottom 0.1s ease-in 0s;
+    -ms-transition: border-bottom 0.1s ease-in 0s;
+    -o-transition: border-bottom 0.1s ease-in 0s;
+    transition: border-bottom 0.1s ease-in 0s;
+
+}
+#container{
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+    background: -webkit-gradient(linear,left top,left bottom, from(#d5d5d5), to(#ccc));
+    padding-top:50px;
+}
+.content{
+    width:1000px;
+    padding: 30px;
+    margin:0 auto;
+}
+.content #d{
+    width:5px;
+    height:30px;
+    background-color: #3a93ff;
+    display: inline-block;
+}
+.content h1{
+    margin-bottom:10px;
+    font-weight:lighter;
+}
+.content #s1{
+    background-color: #deedff;
+    position: relative;
+    top:-9px;
+    padding:5px 5px;
+    margin-top:3px;
+}
+#container p{
+    margin-top:10px;
+    padding:1px 5px;
+    text-indent: 35px;
+    letter-spacing: 1px;
+}
+#footer{
+    width: 100%;
+    height:130px;
+    background: #b9b9b9;
+    margin-top:50px;
+}
+#container ul li{
+    display: inline-block;
+    margin-top:30px;
+    margin-left:100px;
+    text-align: center;
+}
+#container li:last-child{
+    margin-bottom:30px;
+}
+#container #ul li:hover{
+    transform: rotate(360deg);
+    transition: transform 2s linear 0s;
+    opacity: 0.8;
+}
+#container #ul span{
+    display: block;
+    margin-top:5px;
+    margin-left: 140px;
+
+}
+#footer ul li{
+    text-align: center;
+    padding-top:10px;
+}
+#drop{
+    position: relative;
+    display: inline-block;
+}
+#drop #content_1{
+    position: absolute;
+    display: none;
+}
+#drop #content_1 a{
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    color:#136ec2;
+}
+#drop #content_1 a:hover{
+    color:#f60;
+    background-color: #ccc;
+}
+#drop:hover #content_1{
+    display: block;
+    width:130px;
+    padding-left:30px;
+}
+#drop_1{
+    position: relative;
+    display: inline-block;
+}
+#drop_1 #content_2{
+    position: absolute;
+    display: none;
+}
+#drop_1 #content_2 a{
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    color:#136ec2;
+}
+#drop_1 #content_2 a:hover{
+    color:#f60;
+    background-color: #ccc;
+}
+#drop_1:hover #content_2{
+    display: block;
+    width:130px;
+    padding-left:30px;
+}
+#drop_2{
+    position: relative;
+    display: inline-block;
+}
+#drop_2 #content_3{
+    position: absolute;
+    display: none;
+}
+#drop_2 #content_3 a{
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    color:#136ec2;
+}
+#drop_2 #content_3 a:hover{
+    color:#f60;
+    background-color: #ccc;
+}
+#drop_2:hover #content_3{
+    display: block;
+    width:130px;
+    padding-left:30px;
+}
